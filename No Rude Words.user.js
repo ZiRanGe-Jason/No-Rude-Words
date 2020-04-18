@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         No Rude Words
 // @namespace    https://github.com/ZiRanGe-Jason/No-Rude-Words
-// @version      0.2
+// @version      0.3
 // @description  No Rude Words.文明上网，健康上网。这是一个自动屏蔽脏话的油猴脚本，保障您舒心的浏览体验。
 // @author       ZiRanGe-Jason
 // @match        https://*/*
@@ -41,7 +41,7 @@
     //
     //
     //
-    document.body.innerHTML = document.body.innerHTML.replace(/fucking/g, '*******');
+    /*document.body.innerHTML = document.body.innerHTML.replace(/fucking/g, '*******');
     document.body.innerHTML = document.body.innerHTML.replace(/fuck/g, '****');
     document.body.innerHTML = document.body.innerHTML.replace(/bitch/g, '*****');
     document.body.innerHTML = document.body.innerHTML.replace(/Fucking/g, '*******');
@@ -49,7 +49,7 @@
     document.body.innerHTML = document.body.innerHTML.replace(/Bitch/g, '*****');
     document.body.innerHTML = document.body.innerHTML.replace(/FUCKING/g, '*******');
     document.body.innerHTML = document.body.innerHTML.replace(/FUCK/g, '****');
-    document.body.innerHTML = document.body.innerHTML.replace(/BITCH/g, '*****');
+    document.body.innerHTML = document.body.innerHTML.replace(/BITCH/g, '*****');*/
         //
     document.body.innerHTML = document.body.innerHTML.replace(/我操/g, '**');
     document.body.innerHTML = document.body.innerHTML.replace(/我日/g, '**');
@@ -63,7 +63,7 @@
     document.body.innerHTML = document.body.innerHTML.replace(/你爸死了/g, '****');
     document.body.innerHTML = document.body.innerHTML.replace(/去你妈的/g, '****');
     document.body.innerHTML = document.body.innerHTML.replace(/去他妈的/g, '****');
-    document.body.innerHTML = document.body.innerHTML.replace(/他妈的/g, '***');
+    document.body.innerHTML = document.body.innerHTML.replace(/他妈/g, '**');
     document.body.innerHTML = document.body.innerHTML.replace(/操他妈/g, '***');
     document.body.innerHTML = document.body.innerHTML.replace(/日他妈/g, '***');
     document.body.innerHTML = document.body.innerHTML.replace(/你先人/g, '*****');
